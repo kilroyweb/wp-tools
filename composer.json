@@ -1,0 +1,13 @@
+{
+  "name": "kilroyweb/wp-tools",
+  "description": "Tools for wordpress plugin development",
+  "keywords": ["wordpress"],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload":{
+    "psr-4": {
+      "KilroyWeb\\WPTools\\": "src"
+    }
+  }
+}
