@@ -26,4 +26,8 @@ abstract class BaseSetting{
         return $static->getGroup();
     }
 
+    public static function value(){
+        return esc_attr(get_option(static::name()));
+    }
+
 }
