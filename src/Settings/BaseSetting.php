@@ -11,8 +11,19 @@ abstract class BaseSetting{
         return $this->name;
     }
 
+    public static function name(){
+        $static = new static();
+        return $static->getName();
+    }
+
     public function getGroup(){
-        return $this->group;
+        $static = new static();
+        return $static->group;
+    }
+
+    public static function group(){
+        $static = new static();
+        return $static->getGroup();
     }
 
 }
