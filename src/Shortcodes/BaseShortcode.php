@@ -10,7 +10,7 @@ abstract class BaseShortcode{
         add_shortcode( $this->key, array($this, 'run') );
     }
 
-    public function run(){
+    public function run($attributes=[]){
         echo 'shortcode';
     }
 
